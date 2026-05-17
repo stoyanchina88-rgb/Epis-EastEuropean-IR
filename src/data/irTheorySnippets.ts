@@ -1,0 +1,156 @@
+import { TheorySnippet } from '../types';
+
+export const theorySnippets: TheorySnippet[] = [
+  {
+    id: 'classical-realism',
+    name: '古典现实主义',
+    thinkers: ['汉斯·摩根索', '爱德华·卡尔'],
+    coreIdea: '国家行为由权力欲望驱动，国际政治是权力斗争。道德和法律在国际关系中作用有限，国家生存和安全是最高目标。',
+    application: '俄乌冲突可被视为俄罗斯作为区域大国对北约东扩的权力反应。古典现实主义解释了为什么大国会为势力范围而战——在东欧，俄罗斯将乌克兰、白俄罗斯视为其"合法势力范围"。',
+    relevance: 5,
+    category: 'realism',
+  },
+  {
+    id: 'neorealism',
+    name: '新现实主义（结构现实主义）',
+    thinkers: ['肯尼思·华尔兹', '约翰·米尔斯海默'],
+    coreIdea: '国际体系的无政府状态迫使国家追求安全，权力分配（极数）决定体系稳定性。两极体系最稳定，多极体系易冲突。',
+    application: '冷战后从两极到单极再到多极的转型，解释了东欧的安全困境。米尔斯海默的"进攻性现实主义"预测了俄罗斯在乌克兰的行动——大国在其周边寻求霸权。',
+    relevance: 5,
+    category: 'realism',
+  },
+  {
+    id: 'neoliberal-institutionalism',
+    name: '新自由制度主义',
+    thinkers: ['罗伯特·基欧汉', '约瑟夫·奈'],
+    coreIdea: '即使无政府状态下，国际制度能促进国家间合作。通过降低交易成本、增加信息透明度、建立互信机制来克服"囚徒困境"。',
+    application: '欧盟和北约作为东欧地区的制度框架，通过成员国机制促进合作。新自由制度主义解释了为什么东欧国家积极寻求加入欧盟和北约——制度成员身份带来安全和经济收益。',
+    relevance: 4,
+    category: 'liberalism',
+  },
+  {
+    id: 'constructivism',
+    name: '建构主义',
+    thinkers: ['亚历山大·温特', '彼得·卡赞斯坦'],
+    coreIdea: '国际政治中的"利益"和"身份"是社会建构的。观念、规范和文化塑造国家行为，无政府状态是国家"想出来的"。',
+    application: '乌克兰的"欧洲身份"建构与俄罗斯的"斯拉夫兄弟身份"建构之间的冲突是俄乌冲突的观念维度。两国对自身身份的认知差异直接导致了对抗。',
+    relevance: 5,
+    category: 'constructivism',
+  },
+  {
+    id: 'democratic-peace',
+    name: '民主和平论',
+    thinkers: ['迈克尔·多伊尔', '布鲁斯·拉西特'],
+    coreIdea: '民主国家之间很少发生战争，因为民主制度（选举问责、公众监督、制度制衡）和规范（妥协文化、和平解决争端）抑制了冲突。',
+    application: '解释了为什么北约和欧盟的"民主扩张"被俄罗斯视为威胁——民主国家之间更和平，但民主-非民主交界带反而更容易冲突。乌克兰的"民主转型"使其成为两种秩序的交锋点。',
+    relevance: 4,
+    category: 'liberalism',
+  },
+  {
+    id: 'power-transition',
+    name: '权力转移理论',
+    thinkers: ['奥根斯基', '罗伯特·吉尔平'],
+    coreIdea: '当崛起国接近霸权国权力时，战争风险最大。霸权战争往往发生在权力转移期，而非权力均衡期。不满意的崛起国最可能挑战现有秩序。',
+    application: '俄罗斯自2000年代以来的复兴和西方制裁后的"转向东方"，代表了东欧地区的权力再分配。俄罗斯对后苏联空间秩序的挑战是权力转移理论的典型案例。',
+    relevance: 5,
+    category: 'realism',
+  },
+  {
+    id: 'hegemonic-stability',
+    name: '霸权稳定论',
+    thinkers: ['查尔斯·金德尔伯格', '罗伯特·吉尔平'],
+    coreIdea: '需要一个霸权国来提供国际公共产品（安全、自由贸易、货币稳定）。霸权衰落会导致体系不稳定和区域冲突。',
+    application: '冷战后美国作为唯一超级大国在东欧提供"安全公共产品"，但随着美国战略重心转向亚太和国内问题，东欧安全真空加剧——俄罗斯趁机填补。',
+    relevance: 4,
+    category: 'realism',
+  },
+  {
+    id: 'securitization',
+    name: '安全化理论',
+    thinkers: ['奥利·韦弗', '巴里·布赞'],
+    coreIdea: '"安全"是一种言语行为——当某个问题被成功"安全化"（被描述为生存威胁），就可以采取非常规措施。安全化研究的核心是"谁在什么条件下将什么问题安全化"。',
+    application: '俄罗斯将北约东扩"安全化"为生存威胁，从而合理化对乌克兰的军事行动。同样，东欧国家将俄罗斯的侵略"安全化"以加速加入北约。',
+    relevance: 4,
+    category: 'constructivism',
+  },
+  {
+    id: 'spiral-model',
+    name: '安全困境螺旋模型',
+    thinkers: ['罗伯特·杰维斯'],
+    coreIdea: '一国增强自身安全的行动可能被对方视为威胁，导致对方也增强军备，形成"行动-反应"螺旋，最终双方更不安全。认知偏见和意图误判加剧这一过程。',
+    application: '北约东扩与俄罗斯反制的螺旋是安全困境的教科书案例。北约认为东扩是防御性的（保护新成员国），俄罗斯视为进攻性的（围堵），双方的误判不断升级。',
+    relevance: 5,
+    category: 'realism',
+  },
+  {
+    id: 'buffer-state',
+    name: '缓冲国理论',
+    thinkers: ['乔治·凯南', '尼古拉斯·斯派克曼'],
+    coreIdea: '大国之间的小国作为"缓冲地带"可以减少直接冲突。缓冲国的丧失或中立化被打破往往是战争的先兆。',
+    application: '乌克兰传统上是俄罗斯与西方之间的"缓冲国"。2014年乌克兰"脱俄入欧"打破了缓冲状态，俄罗斯认为失去了战略纵深，直接导致了冲突。',
+    relevance: 5,
+    category: 'geopolitics',
+  },
+  {
+    id: 'civilizational-analysis',
+    name: '文明冲突论',
+    thinkers: ['塞缪尔·亨廷顿'],
+    coreIdea: '冷战后全球冲突主要发生在不同文明之间（西方、东正教、伊斯兰、儒家等）。乌克兰恰好位于东正教文明与西方文明的"断裂线"上。',
+    application: '亨廷顿预测了乌克兰的分裂——东部东正教倾向俄罗斯，西部天主教/东仪天主教倾向西方。这一文明断层线确实成为了冲突的地理分界线。',
+    relevance: 4,
+    category: 'geopolitics',
+  },
+  {
+    id: 'dependency',
+    name: '依附理论',
+    thinkers: ['安德烈·冈德·弗兰克', '伊曼纽尔·沃勒斯坦'],
+    coreIdea: '世界体系分为"中心"（发达资本主义国家）、"半边缘"和"边缘"（发展中国家）。边缘国家依附于中心国家，经济结构被扭曲，难以自主发展。',
+    application: '东欧国家在冷战后从苏联的"边缘"转向了西方的"半边缘"——成为欧洲的廉价劳动力市场和资源供应地。这种依附关系是东欧政治不稳定的深层经济原因。',
+    relevance: 3,
+    category: 'critical',
+  },
+  {
+    id: 'european-integration',
+    name: '欧洲一体化理论',
+    thinkers: ['让·莫内', '厄恩斯特·哈斯', '安德鲁·莫劳夫奇克'],
+    coreIdea: '新功能主义认为一体化通过"外溢效应"从低政治（经济）扩展到高政治（安全）；自由政府间主义认为一体化是成员国政府理性选择的结果。',
+    application: '欧盟东扩是一体化理论的重要案例。东欧国家为加入欧盟进行了大规模改革（欧盟条件性），但一体化也带来了主权让渡和民粹主义反弹。',
+    relevance: 4,
+    category: 'liberalism',
+  },
+  {
+    id: 'hybrid-warfare',
+    name: '混合战争理论',
+    thinkers: ['弗兰克·霍夫曼', '安德拉斯·拉茨'],
+    coreIdea: '现代战争融合了常规军事行动、信息战、网络攻击、经济胁迫、代理人战争等多种手段，模糊了和平与战争的界限。',
+    application: '俄罗斯在乌克兰的"混合战争"模式（2014克里米亚的"小绿人"、信息战、能源胁迫、网络攻击）已成为当代冲突研究的标志性案例。',
+    relevance: 5,
+    category: 'geopolitics',
+  },
+  {
+    id: 'deterrence',
+    name: '威慑理论',
+    thinkers: ['托马斯·谢林', '赫尔曼·卡恩'],
+    coreIdea: '通过可信的报复威胁阻止对手采取行动。核威慑的"相互确保摧毁"（MAD）维持了冷战和平。威慑的关键在于"可信度"和"承诺"。',
+    application: '北约的"延伸威慑"——承诺保护东欧盟国——在东欧安全中至关重要。波罗的海国家依赖北约威慑力对抗俄罗斯，威慑的"可信度"直接关系到东欧安全格局。',
+    relevance: 4,
+    category: 'realism',
+  },
+];
+
+export function getTheoryByCategory(category: string): TheorySnippet[] {
+  return theorySnippets.filter((t) => t.category === category);
+}
+
+export function getTheoryById(id: string): TheorySnippet | undefined {
+  return theorySnippets.find((t) => t.id === id);
+}
+
+export const theoryCategories = [
+  { id: 'all', label: '全部', emoji: '📚' },
+  { id: 'realism', label: '现实主义', emoji: '🛡️' },
+  { id: 'liberalism', label: '自由主义', emoji: '🤝' },
+  { id: 'constructivism', label: '建构主义', emoji: '🏛️' },
+  { id: 'geopolitics', label: '地缘政治', emoji: '🌍' },
+  { id: 'critical', label: '批判理论', emoji: '🔍' },
+];
